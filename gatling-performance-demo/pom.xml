@@ -21,6 +21,7 @@
         <scala-maven-plugin.version>3.4.2</scala-maven-plugin.version>
     </properties>
 
+
     <dependencies>
         <dependency>
             <groupId>io.gatling.highcharts</groupId>
