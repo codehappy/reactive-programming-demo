@@ -23,6 +23,6 @@ class BasicSimulation extends Simulation {
   val scn = scenario("hello").exec(helloRequest)
 
   // 配置并发用户的数量在30秒内均匀提高至sim_users指定的数量
-  setUp(scn.inject(rampUsers(10000).during(120 seconds)).protocols(httpConf))
+  setUp(scn.inject(rampUsers(3000).during(120 seconds)).protocols(httpConf))
 
 }
